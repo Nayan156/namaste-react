@@ -9,6 +9,8 @@ const parent = React.createElement("div",{id:"parent"},
         React.createElement("h2",{},"I'm a h2 tag")
         ]
     )
-);
+); // Creating React element using React
+
+const jsxHeading = <h1 id="heading" >Heading form React 🚀</h1>;  // Creating React element using JSX
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render([heading, parent]);
+root.render(jsxHeading);
